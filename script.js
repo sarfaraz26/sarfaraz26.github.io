@@ -17,7 +17,7 @@ async function GetHadith()
     }
     catch
     {
-        console.error('Error 500 : ')
+        console.error('Code 500 : Server Error')
     }
 
 
