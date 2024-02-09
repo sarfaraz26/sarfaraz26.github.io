@@ -9,9 +9,7 @@ async function GetHadith()
     {
         const response = await fetch('https://random-hadith-generator.vercel.app/bukhari/')
         const {data} = await response.json();
-
-        console.log(data);
-
+        
         hadithText.innerHTML = data.hadith_english;
         hadithChapter.innerHTML = data.chapterName;
         hadithRef.innerHTML = "References : "+data.refno
