@@ -1,0 +1,12 @@
+body
+{
+    background-color: rgb(99, 137, 149);
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.parent
+{
+    border-radius: 5px;
+    box-shadow: 10px 10px;
+    background-color: whitesmoke;
+}
